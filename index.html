@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treatment Target Identification Model (TTIM)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <main class="fullpage">
+            <!-- Intro Section -->
+            <section id="intro" class="screen">
+                <div class="intro-wrap">
+                    <h1 class="intro-title">Treatment Target Identification Model (TTIM)</h1>
+                    <p class="byline">by Dr. Alexey Breuss</p>
+                    <p class="lead">
+                        When an individual seeks mental health treatment the referral concerns are typically tied to their life experience. Mental health providers focus on helping individuals adjust their emotions or behavior in order to adjust life experience. In a complex and ever changing modern world, a deep understanding of which internal systems, and their interaction with the outside world, can lead to difficulties in life experience is necessary to accurately treat any individual.
+                    </p>
+                    <div class="nav-arrows">
+                        <button class="arrow-btn" data-dir="next" aria-label="Next">
+                            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M8 5l7 7-7 7"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TTIM 1 - Non-interactive visual (SVG replica) -->
+            <section id="ttim1" class="screen">
+                <div class="image-stage">
+                    <img src="TTIM1.svg" alt="TTIM 1 Model" class="ttim-image">
+                </div>
+                <div class="explanation" data-editable="ttim1">
+                    <p><strong>Explanation:</strong> Add a short explanation of the TTIM 1 visual here. Update this text in code.</p>
+                </div>
+                <div class="nav-arrows">
+                    <button class="arrow-btn" data-dir="prev" aria-label="Previous">
+                        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M16 5l-7 7 7 7"/></svg>
+                    </button>
+                    <button class="arrow-btn" data-dir="next" aria-label="Next">
+                        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M8 5l7 7-7 7"/></svg>
+                    </button>
+                </div>
+            </section>
+
+
+            <!-- TTIM 3 - Interactive hotspots over visual (inlined SVG with annotated hotspots) -->
+            <section id="ttim3" class="screen">
+                <div class="image-stage interactive">
+                <!-- The full TTIM3 SVG is loaded at runtime from TTIM3-PlainXML.txt and injected here.
+                         This keeps index.html small while still producing a true inlined SVG DOM so
+                         we can attach per-<g> hotspots and accessibility attributes. -->
+                    <div id="ttim3-svg-container" class="ttim-svg-loader">
+                        <div class="loading" aria-hidden="true"></div>
+                        <span class="sr-only">Loading interactive visual...</span>
+                    </div>
+                </div>
+                <div class="explanation" data-editable="ttim3">
+                    <p><strong>Explanation:</strong> Add guidance for the TTIM 3 interactive visual here in code. You can later replace this placeholder with detailed notes for each hotspot.</p>
+                </div>
+                <div class="nav-arrows">
+                    <button class="arrow-btn" data-dir="prev" aria-label="Previous">
+                        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M16 5l-7 7 7 7"/></svg>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Legacy model (kept for reference; hidden by default) -->
+            <div class="model-container" style="display:none">
+                <div class="model-wrapper">
+                <!-- Outside the Skin Section -->
+                <div class="section outside-skin">
+                    <h2 class="section-title">Outside the Skin</h2>
+                    
+                    <!-- Greater World -->
+                    <div class="layer greater-world">
+                        <div class="layer-label">Greater World</div>
+                    </div>
+                    
+                    <!-- Culture -->
+                    <div class="layer culture">
+                        <div class="layer-label">Culture</div>
+                    </div>
+                    
+                    <!-- Relationships -->
+                    <div class="layer relationships clickable-layer" data-layer="relationships">
+                        <div class="layer-label">Relationships</div>
+                        <div class="nodes-container">
+                            <div class="node pink-node">
+                                <span>Relationship Understanding</span>
+                            </div>
+                            <div class="node pink-node">
+                                <span>Relationship Skills</span>
+                            </div>
+                            <div class="node pink-node">
+                                <span>Sex & Intimacy</span>
+                            </div>
+                            <div class="node pink-node">
+                                <span>Types of Love</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Behavior -->
+                    <div class="layer behavior">
+                        <div class="layer-label">Behavior</div>
+                            <div class="nodes-container">
+                                <div class="node pink-node">
+                                    <span>Balancing Needs & Wants</span>
+                                </div>
+                                <div class="node pink-node">
+                                    <span>Communication Skills</span>
+                                </div>
+                                <div class="node pink-node">
+                                    <span>Conflict Recovery</span>
+                                </div>
+                                <div class="node pink-node">
+                                    <span>Building Relationships</span>
+                                </div>
+                                <div class="node pink-node">
+                                    <span>Understanding of Others</span>
+                                </div>
+                                <div class="node pink-node">
+                                    <span>Good Things Are Coming</span>
+                                </div>
+                                <div class="node pink-node">
+                                    <span>Meaning For Living</span>
+                                </div>
+                            </div>
+                    </div>
+                    
+                    <!-- Purpose -->
+                    <div class="layer purpose clickable-layer" data-layer="purpose">
+                        <div class="layer-label">Purpose</div>
+                        <div class="nodes-container">
+                            <div class="node pink-node">
+                                <span>Agency Over Future</span>
+                            </div>
+                            <div class="node pink-node">
+                                <span>Looking Forward to Experiences</span>
+                            </div>
+                            <div class="node pink-node">
+                                <span>Purpose to Others</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Divider Line -->
+                <div class="divider-line"></div>
+
+                <!-- Inside the Skin Section -->
+                <div class="section inside-skin">
+                    <h2 class="section-title">Inside the Skin</h2>
+                    
+                    <div class="inside-layers">
+                        <!-- Allostatic Load -->
+                        <div class="layer allostatic-load clickable-layer" data-layer="allostatic-load">
+                            <div class="layer-label">Allostatic Load</div>
+                            <div class="nodes-container">
+                                <div class="node purple-node">Dopamine System</div>
+                                <div class="node purple-node">Autonomic Nervous System</div>
+                                <div class="node purple-node">Catacholamines</div>
+                                <div class="node purple-node">Managing Dopamine System</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Central Core -->
+                        <div class="layer central-core">
+                            <div class="layer-label">Central Core</div>
+                            <div class="nodes-container">
+                                <div class="node pink-node">
+                                    <span>Affect</span>
+                                </div>
+                                <div class="node pink-node">
+                                    <span>Concept</span>
+                                </div>
+                                <div class="node blue-node">Emotion</div>
+                                <div class="node blue-node">Executive Functioning</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Cognitions/Beliefs/Schemas -->
+                        <div class="layer cognitions clickable-layer" data-layer="cognitions">
+                            <div class="layer-label">Cognitions/Beliefs/Schemas</div>
+                            <div class="nodes-container">
+                                <div class="node pink-node">
+                                    <span>Acceptance</span>
+                                </div>
+                                <div class="node pink-node">
+                                    <span>Commitment/Locus of Control</span>
+                                </div>
+                                <div class="node pink-node">
+                                    <span>Beliefs/Education/Experience/Language</span>
+                                </div>
+                                <div class="node pink-node">
+                                    <span>Cognitive Distortions</span>
+                                </div>
+                                <div class="node pink-node">
+                                    <span>Attention Regulation</span>
+                                </div>
+                                <div class="node pink-node">
+                                    <span>Respondent Conditioning</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Greater Nervous System -->
+                    <div class="layer greater-nervous-system">
+                        <div class="layer-label">Greater Nervous System</div>
+                        <div class="nodes-container">
+                            <div class="node blue-node">Sympathetic Learning History/Trauma</div>
+                            <div class="node blue-node">Evaluation of Performance</div>
+                            <div class="node blue-node">Control/Demand/Predictability</div>
+                            <div class="node blue-node">Social Hierarchy</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Metabolic Health -->
+                    <div class="layer metabolic-health clickable-layer" data-layer="metabolic-health">
+                        <div class="layer-label">Metabolic Health</div>
+                        <div class="nodes-container">
+                            <div class="node green-node">Gut Microbiome Probiotics/Prebiotics</div>
+                            <div class="node green-node">Content of Food</div>
+                            <div class="node green-node">Refined Sugars/Fructose Consumption</div>
+                            <div class="node green-node">Substance Use</div>
+                            <div class="node green-node">Inflammation</div>
+                            <div class="node green-node">Physical Activity</div>
+                            <div class="node green-node">Sleep</div>
+                            <div class="node green-node">Circadian Rhythm</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </main>
+        <div class="global-nav">
+            <button class="arrow-btn left" data-dir="prev" aria-label="Previous">
+                <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M16 5l-7 7 7 7"/></svg>
+            </button>
+            <button class="arrow-btn right" data-dir="next" aria-label="Next">
+                <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M8 5l7 7-7 7"/></svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Modal for node details -->
+    <div id="nodeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
