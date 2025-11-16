@@ -480,6 +480,10 @@ body {
     position: relative;
     box-shadow: 0 20px 40px rgba(0,0,0,0.3);
     animation: modalSlideIn 0.3s ease;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 @keyframes modalSlideIn {
@@ -519,6 +523,8 @@ body {
     color: #555;
     line-height: 1.8;
     font-size: 1rem;
+    overflow-y: auto;
+    padding-right: 4px;
 }
 
 /* Responsive Design */
@@ -558,6 +564,118 @@ body {
         width: 95%;
         margin: 10% auto;
         padding: 20px;
+        max-height: 85vh;
+    }
+    #modalBody {
+        max-height: unset;
+    }
+}
+
+/* Floating menu */
+.floating-menu {
+    position: fixed;
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    right: calc(16px + env(safe-area-inset-right, 0px));
+    z-index: 1100;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.floating-menu__toggle {
+    background: #ffffff;
+    color: #4c6ef5;
+    border: none;
+    border-radius: 999px;
+    padding: 10px 18px;
+    font-weight: 600;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.floating-menu__panel {
+    margin-top: 10px;
+    background: rgba(255,255,255,0.98);
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+    padding: 16px;
+    min-width: 260px;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 160ms ease, transform 160ms ease;
+    display: none;
+}
+.floating-menu.is-open .floating-menu__panel {
+    display: block;
+    pointer-events: auto;
+    opacity: 1;
+    transform: translateY(0);
+}
+.floating-menu__section + .floating-menu__section {
+    margin-top: 12px;
+    border-top: 1px solid rgba(0,0,0,0.08);
+    padding-top: 12px;
+}
+.floating-menu__section-btn {
+    width: 100%;
+    background: transparent;
+    border: none;
+    font-weight: 600;
+    color: #2c3e50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 6px 0;
+}
+.floating-menu__chevron {
+    font-size: 0.9rem;
+}
+.floating-menu__list {
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+    color: #4a4a4a;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.floating-menu__list li a {
+    color: #4c6ef5;
+    text-decoration: none;
+    word-break: break-all;
+}
+.floating-menu__list li a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .floating-menu {
+        right: 12px;
+        bottom: 12px;
+    }
+    .floating-menu__panel {
+        min-width: 220px;
+    }
+}
+
+/* Mobile-first zoom for TTIM1 */
+@media (max-width: 768px) {
+    .image-stage {
+        padding: 0;
+    }
+    #ttim1 .image-stage {
+        height: auto;
+    }
+    #ttim1 .ttim-image {
+        width: 100vw;
+        height: auto;
+        max-width: 100vw;
+        max-height: none;
+        object-fit: cover;
+        display: block;
     }
 }
 
