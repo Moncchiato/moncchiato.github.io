@@ -28,11 +28,11 @@
 
             <!-- TTIM 1 - Non-interactive visual (SVG replica) -->
             <section id="ttim1" class="screen">
+                <div class="explanation" data-editable="ttim1">
+                    <p><strong>Foundations:</strong> Modern research combines psychological and neurological research methods to explore the basis of emotions. Work like that of Dr. Lisa Feldman Barrett has led to the constructionist view of emotions, which argues emotions are part affect and part concept. The combination of affect and concept lead to the experience of an action urge, an emotion. Our emotions then lead us to engage in a behavior in the outside world. Dysregulated emotions and/or dysregulated behaviors are the most common reasons individuals seek therapy services. Understanding the link between them can help us understand how to select interventions for treatment. On the next visual, the relationship between affect and concept is expanded upon and how various factors influence emotional experience.</p>
+                </div>
                 <div class="image-stage">
                     <img src="TTIM1.svg" alt="TTIM 1 Model" class="ttim-image">
-                </div>
-                <div class="explanation" data-editable="ttim1">
-                    <p><strong>Explanation:</strong> Add a short explanation of the TTIM 1 visual here. Update this text in code.</p>
                 </div>
                 <div class="nav-arrows">
                     <button class="arrow-btn" data-dir="prev" aria-label="Previous">
@@ -47,6 +47,9 @@
 
             <!-- TTIM 3 - Interactive hotspots over visual (inlined SVG with annotated hotspots) -->
             <section id="ttim3" class="screen">
+                <div class="explanation" data-editable="ttim3">
+                    <p><strong>Looking Deeper:</strong> The model below is expanded to include the areas of an individual's life that can lead to experiential pain if the underlying factors are not well maintained. The model includes five components that are heavily tied to emotional experience and interact with each other in ways that cannot be truly seperated. You may click on Cognitions, Allostatic Load, Relationships, Purpose, and Metabolic Health to explore each facet.</p>
+                </div>
                 <div class="image-stage interactive">
                 <!-- The full TTIM3 SVG is loaded at runtime from TTIM3-PlainXML.txt and injected here.
                          This keeps index.html small while still producing a true inlined SVG DOM so
@@ -55,9 +58,6 @@
                         <div class="loading" aria-hidden="true"></div>
                         <span class="sr-only">Loading interactive visual...</span>
                     </div>
-                </div>
-                <div class="explanation" data-editable="ttim3">
-                    <p><strong>Explanation:</strong> Add guidance for the TTIM 3 interactive visual here in code. You can later replace this placeholder with detailed notes for each hotspot.</p>
                 </div>
                 <div class="nav-arrows">
                     <button class="arrow-btn" data-dir="prev" aria-label="Previous">
@@ -236,6 +236,35 @@
             </div>
             </div>
         </main>
+        <div class="floating-menu" aria-expanded="false">
+            <button class="floating-menu__toggle" type="button" aria-haspopup="true" aria-expanded="false">
+                Menu
+                <span aria-hidden="true">☰</span>
+            </button>
+            <div class="floating-menu__panel" role="menu">
+                <div class="floating-menu__section">
+                    <button class="floating-menu__section-btn" type="button" aria-controls="menu-didactics" aria-expanded="false">
+                        Didactics
+                        <span class="floating-menu__chevron" aria-hidden="true">▾</span>
+                    </button>
+                    <ul id="menu-didactics" class="floating-menu__list" hidden>
+                        <li>Role of Metabolic Health in Mental Health</li>
+                        <li>How Our Biological Systems Interact With Our Culture to Make Emotions</li>
+                        <li>Understanding How Relationships Impact Emotions</li>
+                        <li>Identifying Treatment Targets</li>
+                    </ul>
+                </div>
+                <div class="floating-menu__section">
+                    <button class="floating-menu__section-btn" type="button" aria-controls="menu-contact" aria-expanded="false">
+                        Contact
+                        <span class="floating-menu__chevron" aria-hidden="true">▾</span>
+                    </button>
+                    <ul id="menu-contact" class="floating-menu__list" hidden>
+                        <li><a href="mailto:dr.alexeybreuss@gmail.com">dr.alexeybreuss@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <div class="global-nav">
             <button class="arrow-btn left" data-dir="prev" aria-label="Previous">
                 <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M16 5l-7 7 7 7"/></svg>

@@ -3,101 +3,101 @@ const layerContent = {
     'relationships': {
         title: 'Relationships',
         content: `
-            <p><strong>Overview:</strong> The Relationships layer encompasses all aspects of interpersonal connections and social bonds.</p>
+            <p><strong>Overview:</strong> The Relationships layer encompasses all aspects of interpersonal connections and social bonds, which are vital for proper functioning in a social species.</p>
             
-            <h3>Components within this layer:</h3>
+            <h3>Important treatment considerations:</h3>
             <ul>
-                <li><strong>Relationship Understanding:</strong> Cognitive and emotional capacity to comprehend relationship dynamics</li>
-                <li><strong>Relationship Skills:</strong> Practical abilities for forming and maintaining relationships</li>
-                <li><strong>Sex & Intimacy:</strong> Physical and emotional aspects of intimate connections</li>
-                <li><strong>Types of Love:</strong> Understanding different forms and expressions of love</li>
+                <li><strong>Social Homeostatic Needs:</strong> Social isolation and absense of connections leads humans to experience physiological consequences, such as the buildup of Tachykinin peptides. Which then leads to issues with allostasis.</li>
+                <li><strong>Relationship Skills:</strong> Relationship maintenance in a complex world is not an inherent trait, relationships require skills and understanding that need to be learned.</li>
             </ul>
             
             <h3>Treatment Applications:</h3>
-            <p>This layer focuses on improving clients' capacity for healthy interpersonal relationships through skill development, understanding patterns, and addressing intimacy needs.</p>
+            <p>Healthy interpersonal relationships are an important pillar in upholding a good quality of life and emotional experience. Therapy often addresses issues in this area through skill development, understanding patterns, and addressing social connection needs.</p>
             
-            <p><em>Add your detailed content about the Relationships layer here...</em></p>
+            <p><em></em></p>
         `
     },
     'purpose': {
         title: 'Purpose',
         content: `
-            <p><strong>Overview:</strong> The Purpose layer addresses meaning-making, future orientation, and contribution to others.</p>
+            <p><strong>Overview:</strong> A unqiue aspect of the human experience that is related to the external world and behaviors while having an internal place of origin. A person's "reason for being" in the moment or in their life is an important pillar of strong mental health.</p>
             
-            <h3>Components within this layer:</h3>
+            <h3>Important treatment considerations:</h3>
             <ul>
-                <li><strong>Agency Over Future:</strong> Belief in control and influence over future outcomes</li>
-                <li><strong>Looking Forward to Experiences:</strong> Capacity to anticipate positive future events</li>
-                <li><strong>Purpose to Others:</strong> Sense of contributing meaningfully to others' lives</li>
+                <li><strong>Agency Over Future:</strong> Belief in control and influence over future outcomes reduces Sypathetic Nervous System (SNS) system activity and leads to more engagement in life activity.</li>
+                <li><strong>Looking Forward to Experiences:</strong> The anticipation of future positively valenced experiences is both necessary for dopamine system maintenance and for the belief life is worth living.</li>
+                <li><strong>Purpose to Others:</strong> Having a concrete and valued role in a social setting providers a person with increased self worth and thus decreased SNS activity.</li>
             </ul>
             
             <h3>Treatment Applications:</h3>
-            <p>This layer helps clients develop a sense of purpose, agency, and meaning in their lives, which are crucial for mental health and wellbeing.</p>
+            <p>Ensuring each client has a "reason for being" helps clients develop a sense of purpose, agency, and meaning in their lives, which are crucial for mental health and wellbeing due to how some of our internal systems are built.</p>
             
-            <p><em>Add your detailed content about the Purpose layer here...</em></p>
+            <p><em></em></p>
         `
     },
     'allostatic-load': {
         title: 'Allostatic Load',
         content: `
-            <p><strong>Overview:</strong> The Allostatic Load layer represents the cumulative burden of stress and physiological responses to chronic challenges.</p>
+            <p><strong>Overview:</strong> Allostasis is the process by which the body achieves stability through physiological or behavioral changes in response to environmental demands. The "wear and tear" that results from the dysregulation or chronic activation of these systems is called allostatic load. Understanding the innate, not just learned, predispositions of the human nervous system is vital for understanding why certain life experiences lead to emotion dysregulation and pain. Maintaining a low chronic allostatic load is another pillar of a quality life experience.</p>
             
-            <h3>Components within this layer:</h3>
+            <h3>Important treatment considerations:</h3>
             <ul>
-                <li><strong>Dopamine System:</strong> Neurotransmitter system involved in reward and motivation</li>
-                <li><strong>Autonomic Nervous System:</strong> Automatic physiological responses to stress</li>
-                <li><strong>Catacholamines:</strong> Stress hormones (epinephrine, norepinephrine)</li>
-                <li><strong>Managing Dopamine System:</strong> Regulation of reward and motivation systems</li>
+                <li><strong>Sympathetic Nervous System (SNS):</strong> The Sympathetic branch of the Autonomic Nervous System is our one size fits all blanket response to demand. Understanding our natural attenuations to SNS activation and what chronic SNS activation does to our nervous system and lived experience is vital in understanding pathways to emotion dysregulation.</li>
+                <li><strong>Control, Demand, and Predictability:</strong> Our SNS is activated in response to less control and predictability and more demand.</li>
+                <li><strong>Performance:</strong> Our SNS system activates in order to help us reach levels of performance in the outside world that our brain is in pursuit of.</li>
+                <li><strong>Social Heirarchy</strong> Our SNS's natural sensitivity to social heirarchy is one of the most influential aspects of a person's lived experience in a social setting. Many clients are plagued by issues of self-worth. The natural predisposition to have higher SNS activation when perceived lesser, and lower SNS activation when perceived greater in social rank is an underdiscussed core aspect of the human experience.</li>
+                <li><strong>Dopamine System:</strong> Neurotransmitter system involved in reward and motivation is vital for life. Mice altered to have no dopamine production also do not engage in the pursuit of life preserving behaviors. Humans utilize their dopamine system for much more than just living, and understanding its function is important to understanding the consequences of under and over activation through dopamine pathways.</li>
+
             </ul>
             
             <h3>Treatment Applications:</h3>
-            <p>This layer addresses the physiological impacts of chronic stress and works to manage allostatic load through various interventions targeting stress response systems.</p>
+            <p>Understanding the natural physiological systems that keep us alive and the physiological impacts of chronic stress and dopamine system variations can help providers select treatments that alleviate heavy allostatic load through various interventions targeting stress response systems.</p>
             
-            <p><em>Add your detailed content about the Allostatic Load layer here...</em></p>
+            <p><em></em></p>
         `
     },
     'cognitions': {
         title: 'Cognitions/Beliefs/Schemas',
         content: `
-            <p><strong>Overview:</strong> The Cognitions/Beliefs/Schemas layer encompasses thought patterns, beliefs, cognitive frameworks, and learning processes.</p>
+            <p><strong>Overview:</strong> Cogntions/Beliefs/Schemes/etc. encompasses thought patterns, beliefs, cognitive frameworks, and learning processes that majority of therapeutic modalities target. Traditionally, this is where cognitive based therapies do most of the intervention. Cognitions and beliefs are an important pillar of positive emotional experience.</p>
             
-            <h3>Components within this layer:</h3>
+            <h3>Important treatment considerations:</h3>
             <ul>
-                <li><strong>Acceptance:</strong> Acknowledging and embracing reality as it is</li>
-                <li><strong>Commitment/Locus of Control:</strong> Belief in personal control and goal commitment</li>
-                <li><strong>Beliefs/Education/Experience/Language:</strong> Cognitive frameworks and knowledge structures</li>
-                <li><strong>Cognitive Distortions:</strong> Systematic errors in thinking patterns</li>
-                <li><strong>Attention Regulation:</strong> Control and direction of attention</li>
-                <li><strong>Respondent Conditioning:</strong> Learned associations and conditioned responses</li>
+                <li><strong>Acceptance:</strong> Acknowledging and embracing reality is an important part of being able to make sound decisions and align yourself to healthy behaviors and desires.</li>
+                <li><strong>Commitment/Locus of Control:</strong> Belief in personal control and goal commitment, combined with willingness and flexibility is necessary for behaviors that are required for living.</li>
+                <li><strong>Beliefs/Education/Experience/Language:</strong> Cognitive frameworks and knowledge structures are learned, and influence our nervous system as if they are objectively real.</li>
+                <li><strong>Cognitive Distortions:</strong> Systematic errors in thinking patterns lead to maladaptive spending of allostatic resources.</li>
+                <li><strong>Attention Regulation:</strong> The capacity to intentionally bring attention to valued aspects of living is an important part in living in a universe that does not try to keep us alive. The practice of Mindfulness enhances dlPFC activity in the brain to help regulate emotions.</li>
+                <li><strong>Respondent Conditioning:</strong> Learned associations and conditioned responses through lived experience shape schemas and our mind's predictive capacity.</li>
             </ul>
             
             <h3>Treatment Applications:</h3>
-            <p>This layer is central to cognitive-behavioral interventions, addressing maladaptive thought patterns, developing cognitive flexibility, and restructuring beliefs and schemas.</p>
+            <p>Our cognitions, beliefs, schemas, etc. are central to cognitive-behavioral interventions, addressing maladaptive thought patterns, developing cognitive flexibility, and restructuring how our mind predicts and allocates resources.</p>
             
-            <p><em>Add your detailed content about the Cognitions/Beliefs/Schemas layer here...</em></p>
+            <p><em></em></p>
         `
     },
     'metabolic-health': {
         title: 'Metabolic Health',
         content: `
-            <p><strong>Overview:</strong> The Metabolic Health layer encompasses physical health factors that significantly impact psychological functioning.</p>
+            <p><strong>Overview:</strong> Metabolic Health encompasses physical health factors that significantly impact psychological functioning. The health of our individual cells, and our Mitochondria, can influence how nerves function and every aspect of our lived experience.</p>
             
             <h3>Components within this layer:</h3>
             <ul>
-                <li><strong>Gut Microbiome Probiotics/Prebiotics:</strong> Intestinal health and microbiome balance</li>
-                <li><strong>Content of Food:</strong> Nutritional quality and dietary patterns</li>
-                <li><strong>Refined Sugars/Fructose Consumption:</strong> Impact of processed sugars on health</li>
-                <li><strong>Substance Use:</strong> Consumption of substances affecting physiology</li>
-                <li><strong>Inflammation:</strong> Systemic inflammatory processes</li>
-                <li><strong>Physical Activity:</strong> Exercise and movement patterns</li>
-                <li><strong>Sleep:</strong> Sleep quality and quantity</li>
-                <li><strong>Circadian Rhythm:</strong> Biological timing and sleep-wake cycles</li>
+                <li><strong>Gut Microbiome Probiotics/Prebiotics:</strong> The gut microbiome has been implied in almost every aspect of health, mental health not excluded. Our healthy gut bacteria produce important building blocks for our nervous system.</li>
+                <li><strong>Content of Food:</strong> Humans require specific nutrients for their bodies and brains to function, and deficits in said nutrients translate to poorer lived experience.</li>
+                <li><strong>Refined Sugars/Fructose Consumption:</strong> Impact of processed sugars on health, and brain health specifically cannot be understated.</li>
+                <li><strong>Substance Use:</strong> Substance use has effects on our cells and mitochondria that translated to poorer lived experience.</li>
+                <li><strong>Inflammation:</strong> While inflammation is necessary for some aspects of function, chronic inflammation comes at a cost to our cells and mitochondria.</li>
+                <li><strong>Physical Activity:</strong> Our bodies were meant to move, and if you don't use it, you lose it. Exercise is implied in many aspects of nervous system support and health.</li>
+                <li><strong>Sleep:</strong> Sleep is what enables the nervous system to function as it does. If sleep is disrupted, all nervous system activity, including affect and allostasis.</li>
+                <li><strong>Circadian Rhythm:</strong> Disruptions in the natural patterns of cortisol spikes and trophs leads to negative impacts of cells and mitochondria.</li>
             </ul>
             
             <h3>Treatment Applications:</h3>
-            <p>This foundational layer addresses the physical health factors that create the biological substrate for mental health. Interventions here can significantly impact overall treatment outcomes.</p>
+            <p>Metabolic health is a foundational layer that addresses the physical health factors that create the biological substrate for mental health. With the modern world leading many to have impaired metabolic health, clinicials will need to be aware of how metabolic health interacts with lived experience and mental health to be able to properly treat mental health abnormalities. Interventions here can significantly impact overall treatment outcomes.</p>
             
-            <p><em>Add your detailed content about the Metabolic Health layer here...</em></p>
+            <p><em></em></p>
         `
     }
 };
@@ -287,7 +287,7 @@ window.TTIM = {
     // Mapping of SVG group ids to logical layer keys in layerContent
     const idMap = {
         // existing group ids (kept for compatibility)
-        'g2517': 'cognitions',
+        'g1812': 'cognitions',
         'g2077': 'relationships',
         'g2364': 'relationships',
         'g2570': 'allostatic-load',
@@ -308,7 +308,7 @@ window.TTIM = {
         'g2964': ['g2363'],        // Relationships -> title g2363
         'g2966': ['g2784'],        // Purpose -> title g2784
         'g2962': ['g2322'],        // Metabolic -> title g2322
-        'g2517': ['g2516'],        // Cognitions -> title g2516
+        'g1812': ['g2516'],        // Cognitions -> title g2516
         'g2965': ['g2569'],        // Allostatic Load -> title g2569
         // keep older mappings for compatibility
         'g2077': ['g2364'],
@@ -321,7 +321,7 @@ window.TTIM = {
     // Which specific controller IDs are allowed to show popouts. We'll disable
     // popups/clones for all other path/g ids so we can restart from a minimal set.
     // Allow five specific controller g ids to be interactive
-    const ALLOWED_CONTROLLERS = new Set(['g2517','g2965','g2962','g2964','g2966']);
+    const ALLOWED_CONTROLLERS = new Set(['g1812','g2965','g2962','g2964','g2966']);
 
     // Feature flag: enable opening the modal on click/keyboard for controllers
     const ENABLE_LAYER_MODAL = true;
@@ -824,3 +824,51 @@ window.TTIM = {
     }
 
 })();
+
+// Floating menu interactions
+document.addEventListener('DOMContentLoaded', () => {
+    const floatingMenu = document.querySelector('.floating-menu');
+    if (!floatingMenu) return;
+    const toggle = floatingMenu.querySelector('.floating-menu__toggle');
+    const setMenuState = (open) => {
+        floatingMenu.classList.toggle('is-open', open);
+        floatingMenu.setAttribute('aria-expanded', open);
+        if (toggle) toggle.setAttribute('aria-expanded', open);
+    };
+    if (toggle) {
+        toggle.addEventListener('click', (evt) => {
+            evt.stopPropagation();
+            const next = !floatingMenu.classList.contains('is-open');
+            setMenuState(next);
+            if (!next) {
+                floatingMenu.querySelectorAll('.floating-menu__section-btn').forEach(btn => {
+                    btn.setAttribute('aria-expanded', 'false');
+                });
+                floatingMenu.querySelectorAll('.floating-menu__list').forEach(list => list.setAttribute('hidden',''));
+            }
+        });
+    }
+    floatingMenu.querySelectorAll('.floating-menu__section-btn').forEach(btn => {
+        btn.addEventListener('click', (evt) => {
+            evt.stopPropagation();
+            const controls = btn.getAttribute('aria-controls');
+            const list = document.getElementById(controls);
+            const expanded = btn.getAttribute('aria-expanded') === 'true';
+            const next = !expanded;
+            btn.setAttribute('aria-expanded', next.toString());
+            if (list) {
+                if (next) list.removeAttribute('hidden');
+                else list.setAttribute('hidden', '');
+            }
+        });
+    });
+    document.addEventListener('click', (evt) => {
+        if (!floatingMenu.contains(evt.target)) {
+            setMenuState(false);
+            floatingMenu.querySelectorAll('.floating-menu__section-btn').forEach(btn => {
+                btn.setAttribute('aria-expanded', 'false');
+            });
+            floatingMenu.querySelectorAll('.floating-menu__list').forEach(list => list.setAttribute('hidden',''));
+        }
+    });
+});
