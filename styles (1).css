@@ -50,7 +50,6 @@ body {
     max-width: 1100px;
     text-align: center;
     color: white;
-    padding: 0 32px;
 }
 
 .intro-title {
@@ -527,32 +526,11 @@ body {
     overflow-y: auto;
     padding-right: 4px;
 }
-#modalBody p,
-#modalBody ul,
-#modalBody ol,
-#modalBody h3,
-#modalBody h4,
-#modalBody h5 {
-    margin-bottom: 12px;
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
         padding: 10px;
-    }
-    .explanation {
-        margin: 12px 16px 8px;
-        max-width: 100%;
-        text-align: left;
-    }
-    /* Push TTIM3 visual down a bit on mobile so text + arrows don't crowd it */
-    #ttim3 .image-stage {
-        margin-top: 12px;
-    }
-    /* Hide global nav arrows on mobile so they don't block text/SVG */
-    .global-nav {
-        display: none;
     }
     
     .header h1 {
@@ -680,41 +658,6 @@ body {
     }
     .floating-menu__panel {
         min-width: 220px;
-    }
-}
-
-/* Mobile layout tweaks */
-@media (max-width: 768px) {
-    .screen {
-        align-items: center;
-        justify-content: flex-start;
-        padding-top: 12px;
-    }
-    .explanation {
-        margin: 12px 16px 8px;
-        max-width: 100%;
-        text-align: left;
-        max-height: none;
-        overflow: visible;
-    }
-    #ttim1 .image-stage,
-    #ttim3 .image-stage {
-        margin-top: 16px;
-    }
-    /* Keep TTIM3 sizing closer to TTIM1 on mobile */
-    #ttim3 .image-stage {
-        height: auto;
-        min-height: 0;
-        max-height: none;
-    }
-    #ttim3 .ttim-svg-loader,
-    #ttim3 .image-stage .ttim-svg {
-        width: 100%;
-        height: auto;
-        max-height: none;
-    }
-    .global-nav {
-        display: none;
     }
 }
 
