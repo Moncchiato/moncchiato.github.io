@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | Alexey Breuss</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #f7f9fb;
+            --panel: #ffffff;
+            --accent: #4c6ef5;
+            --text: #1f2937;
+            --muted: #6b7280;
+            --border: #e5e7eb;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .layout {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            min-height: 100vh;
+        }
+        aside {
+            background: linear-gradient(180deg, #4f46e5 0%, #7c3aed 50%, #0ea5e9 100%);
+            color: #fff;
+            padding: 32px 24px;
+            position: sticky;
+            top: 0;
+            align-self: start;
+            min-height: 100vh;
+        }
+        .name {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin: 0 0 8px;
+        }
+        .contact {
+            margin: 12px 0 24px;
+            display: grid;
+            gap: 6px;
+        }
+        .contact a {
+            color: #e0e7ff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .nav-links {
+            list-style: none;
+            padding: 0;
+            margin: 24px 0 0;
+            display: grid;
+            gap: 10px;
+        }
+        .nav-links a {
+            color: #eef2ff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .main {
+            padding: 32px;
+        }
+        .section {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 20px 24px;
+            margin-bottom: 18px;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+        }
+        .section h2 {
+            margin: 0 0 12px;
+            font-size: 1.2rem;
+            letter-spacing: 0.01em;
+        }
+        .item {
+            margin-bottom: 12px;
+        }
+        .item:last-child { margin-bottom: 0; }
+        .role {
+            font-weight: 700;
+        }
+        .org {
+            font-weight: 600;
+            color: var(--accent);
+        }
+        .meta {
+            color: var(--muted);
+            font-size: 0.95rem;
+            margin: 4px 0 8px;
+        }
+        ul.tight {
+            margin: 0 0 8px 18px;
+            padding: 0;
+        }
+        ul.tight li { margin-bottom: 6px; }
+        @media (max-width: 960px) {
+            .layout {
+                grid-template-columns: 1fr;
+            }
+            aside {
+                position: relative;
+                min-height: auto;
+                border-bottom: 1px solid rgba(255,255,255,0.2);
+            }
+        }
+        @media print {
+            body { background: #fff; }
+            .layout { grid-template-columns: 1fr; }
+            aside { color: #000; background: #fff; border: none; }
+            .section { box-shadow: none; }
+            a { color: #000; text-decoration: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <aside>
+            <div class="name">Alexey Breuss</div>
+            <div class="contact">
+                <a href="tel:+17187755533">718-775-5533</a>
+                <a href="mailto:dr.alexeybreuss@gmail.com">dr.alexeybreuss@gmail.com</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#licensure">Licensure</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#clinical">Clinical Experience</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#professional">Professional Experience</a></li>
+                <li><a href="#leadership">Leadership / Volunteer</a></li>
+                <li><a href="#competencies">Clinical Competencies</a></li>
+            </ul>
+        </aside>
+        <main class="main">
+            <section class="section" id="skills">
+                <h2>Skills</h2>
+                <ul class="tight">
+                    <li>HIPPA/Joint Commission compliance</li>
+                    <li>Training in CBT (Beck’s CT, REBT, DBT, RO-DBT, CPT), EMDR, IFS, ACT</li>
+                    <li>Testing: cognitive, executive functioning, academic, socio-emotional, behavioral</li>
+                    <li>Strong service recovery; scheduling and organizational skills; group/event organization</li>
+                    <li>Clinical supervision: case conceptualization, case management, clinician education, deliberate practice (CBT, DBT), culturally appropriate care</li>
+                    <li>Formal training serving diverse cultures and marginalized U.S. communities</li>
+                    <li>Public speaking (audiences up to 300)</li>
+                    <li>Strong drive for continuing education</li>
+                </ul>
+            </section>
+
+            <section class="section" id="licensure">
+                <h2>Licensure</h2>
+                <ul class="tight">
+                    <li>New York Psychologist License #: 027372</li>
+                    <li>New Jersey Psychologist License #: 35S100793300</li>
+                </ul>
+            </section>
+
+            <section class="section" id="education">
+                <h2>Education</h2>
+                <div class="item">
+                    <div class="role">Psy.D. / M.S. in School Psychology</div>
+                    <div class="org">St. John’s University, Queens NY</div>
+                    <div class="meta">09/2016 – 01/2024 | Cumulative GPA: 3.75</div>
+                    <ul class="tight">
+                        <li>Psycho-educational evaluations across ages using cognitive, academic, executive, behavioral, socio-emotional batteries</li>
+                        <li>Comprehensive CBT psychotherapy training; theory of therapy, intelligence, consultation, psychopathology</li>
+                        <li>Focus on bilingual development; cultural training (including work with Samuel Ortiz, C-LIM)</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="role">B.S. Psychology</div>
+                    <div class="org">Stony Brook University, Stony Brook NY</div>
+                    <div class="meta">May 2014</div>
+                </div>
+            </section>
+
+            <section class="section" id="clinical">
+                <h2>Clinical Experience</h2>
+                <div class="item">
+                    <div class="role">Post-Doctoral / Associate Psychologist</div>
+                    <div class="org">Kind Mind Psychology, New York NY</div>
+                    <div class="meta">04/2024 – Present | Supervisor: Khadija Cyril, Psy.D.</div>
+                    <ul class="tight">
+                        <li>Caseload 25+ individual/couple clients; modalities: DBT, CBT, CPT, REBT, EMDR, IFS, ACT, Gottman Couples, Sex Therapy</li>
+                        <li>Didactics: EMDR, IFS, CPT (telehealth)</li>
+                        <li>Led weekly DBT skills groups (up to 12 participants)</li>
+                        <li>Supervised master’s, doctoral, and associate therapists; deliberate practice (CBT/DBT), case conceptualization, case management, admin support</li>
+                        <li>Planned adult assessments for underserved populations (cognitive, SVI, attention, personality)</li>
+                        <li>Interviewed and provided feedback to clinicians/students; coordinated with schools for underperforming students</li>
+                        <li>Administrative: outreach, recruitment, advertising, blogs, scheduling, NHSC planning</li>
+                        <li>Researched and wrote podcast scripts for the public</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="role">Doctoral Intern</div>
+                    <div class="org">Rochester Institute of Technology Behavioral Health, Rochester NY</div>
+                    <div class="meta">Dates not provided</div>
+                    <ul class="tight">
+                        <li>Psychotherapy for ~35 patients at Evelyn Brandon Health Center (Rochester Regional Health); coordinated care with legal/medical/financial providers</li>
+                        <li>Psychological assessments at Genesee Behavioral Health Center</li>
+                        <li>Presented research at RIT Global Public Health Conference; weekly didactic training</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="role">Student Extern Therapist</div>
+                    <div class="org">Kind Mind Psychology, New York NY</div>
+                    <div class="meta">06/2020 – 06/2022 | Supervisor: Monica Johnson, Psy.D.</div>
+                    <ul class="tight">
+                        <li>Didactics: DBT, RO-DBT, CPT; maintained caseload of 12 diverse clients</li>
+                        <li>Supplemental didactics: personality disorders, psychopharm, intuitive eating, insomnia/sleep, sexual health (straight & LGBTQ+), trauma, gender, race, schema therapy, culturally competent LGBTQ+ care</li>
+                        <li>Conducted intakes; developed treatment plans; wrote summaries</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="role">Student Therapist</div>
+                    <div class="org">Center for Psychological Services, Flushing NY</div>
+                    <div class="meta">06/2019 – 06/2020 | Supervisor: Olga Jablonka, Ph.D.</div>
+                    <ul class="tight">
+                        <li>Delivered CBT approaches: Beck’s CT, REBT, third-wave CBT</li>
+                        <li>Parent training (behavioral concerns, ODD, ADHD); adapted manuals to client needs</li>
+                        <li>Built strong therapeutic alliance</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="role">School Psychology Intern</div>
+                    <div class="org">Valley Stream District 30, Valley Stream NY</div>
+                    <div class="meta">09/2019 – 06/2020 | Supervisor: Francyne Zeltser, Psy.D.</div>
+                    <ul class="tight">
+                        <li>Psychodiagnostic testing; individual/group counseling (anxiety, coping, self-regulation, social skills)</li>
+                        <li>Lesson plans/materials for individual, group, classroom settings (CBT-based)</li>
+                        <li>Crisis intervention/de-escalation; in-school DBT program training for faculty/admin</li>
+                        <li>Consultation with teachers/parents; CSE presentations; virtual lessons (COVID-19)</li>
+                        <li>Adapted Zones of Regulation for virtual sessions</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="role">Psychology Trainee</div>
+                    <div class="org">Center for Psychological Services, Flushing NY</div>
+                    <div class="meta">09/2017 – 06/2018 | Supervisor: Shauna Dixon, Psy.D.</div>
+                    <ul class="tight">
+                        <li>Psychodiagnostic testing; Cross-Battery Assessment (X-Bass)</li>
+                        <li>Psychoeducational/neuropsychological reports; placement/service recommendations</li>
+                        <li>Consultation with families/educators/service providers; presented findings weekly</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section" id="teaching">
+                <h2>Formal Teaching Experience</h2>
+                <ul class="tight">
+                    <li>Taught Level 1 DBT and DBT Skills to pre-doctoral and master’s clinicians</li>
+                    <li>Didactics: interactions of Metabolic Health and Mental Health (pre-doctoral psychologists)</li>
+                    <li>Co-led semester-long systemic sex-therapy course (master’s clinicians, pastoral clergy)</li>
+                    <li>Didactics on ADHD in women (emotion regulation, executive functioning, pregnancy, menopause)</li>
+                </ul>
+            </section>
+
+            <section class="section" id="professional">
+                <h2>Relevant Professional Experience</h2>
+                <div class="item">
+                    <div class="role">Child Life Assistant</div>
+                    <div class="org">Cornell Presbyterian Hospital, New York NY</div>
+                    <div class="meta">11/2015 – 05/2022</div>
+                    <ul class="tight">
+                        <li>Maintained patient-friendly environment within Joint Commission, HIPAA, hospital policy</li>
+                        <li>Provided developmentally appropriate play and emotional support for patients/families</li>
+                        <li>Performed service recovery; coordinated volunteer group visits; outreach to underprivileged groups</li>
+                        <li>Trained/supervised volunteers on confidentiality, bedside manner, age-appropriate interaction</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="role">Intern Teacher</div>
+                    <div class="org">SBU Childcare Center, Stony Brook NY</div>
+                    <div class="meta">01/2015 – 07/2015</div>
+                    <ul class="tight">
+                        <li>Planned and delivered developmentally appropriate activities for preschoolers</li>
+                        <li>Prepared children for 3rd grade assessments; taught daily tasks, social interaction, discipline</li>
+                        <li>Established social, safe, healthy environment for development</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section" id="leadership">
+                <h2>Leadership / Volunteer</h2>
+                <ul class="tight">
+                    <li>Treasurer and event coordinator, Taiwanese Student Association, Stony Brook University</li>
+                    <li>Pediatric inpatient volunteer, Komansky Children’s Hospital, New York Presbyterian Weill Cornell (200 hours)</li>
+                    <li>Cell culture and spleen cell extraction experience, New York University</li>
+                </ul>
+            </section>
+
+            <section class="section" id="competencies">
+                <h2>Clinical Competencies</h2>
+                <div class="item">
+                    <div class="role">Therapy Programs</div>
+                    <ul class="tight">
+                        <li>Cognitive Behavior Therapy; Dialectical Behavior Therapy; Rational Emotive Behavior Therapy</li>
+                        <li>Radically Open-DBT; Cognitive Processing Therapy; EMDR; Internal Family Systems</li>
+                        <li>Couples Therapy (Gottman Method); Sex Therapy</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="role">Counseling Programs</div>
+                    <ul class="tight">
+                        <li>DBT STEPS-A; Coping Cat; Social Problem Solving & Me; Social Decision Making; Zones of Regulation</li>
+                        <li>Yale Center for Emotional Intelligence RULER Program</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="role">Cognitive Test Batteries</div>
+                    <ul class="tight">
+                        <li>WISC-V, WAIS-IV, WPPSI-IV, WJ IV COG, WJ IV OL, KABC-2, CTONI-2, SB5, Beery VMI-6</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="role">Achievement Test Batteries</div>
+                    <ul class="tight">
+                        <li>WIAT-III; WJ IV ACH Normative Update; KTEA-3</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="role">Behavior</div>
+                    <ul class="tight">
+                        <li>ABAS-2; BASC-3; Conners CBRS; Conners-3; BRIEF-2; Vineland-II</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="role">Personality</div>
+                    <ul class="tight">
+                        <li>MMPI-2 & MMPI-A; 16PF; MACI; MASC-2; NEO-FFI; BAI; BYI-II; BDI-II</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="role">Executive Functioning</div>
+                    <ul class="tight">
+                        <li>NEPSY-2; D-KEFS</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

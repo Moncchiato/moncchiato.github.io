@@ -855,11 +855,18 @@ document.addEventListener('DOMContentLoaded', () => {
             const list = document.getElementById(controls);
             const expanded = btn.getAttribute('aria-expanded') === 'true';
             const next = !expanded;
-            btn.setAttribute('aria-expanded', next.toString());
-            if (list) {
-                if (next) list.removeAttribute('hidden');
-                else list.setAttribute('hidden', '');
-            }
+            // close all others, open only the clicked one when next is true
+            floatingMenu.querySelectorAll('.floating-menu__section-btn').forEach(other => {
+                const otherControls = other.getAttribute('aria-controls');
+                const otherList = document.getElementById(otherControls);
+                const isTarget = other === btn;
+                const shouldExpand = isTarget ? next : false;
+                other.setAttribute('aria-expanded', shouldExpand.toString());
+                if (otherList) {
+                    if (shouldExpand) otherList.removeAttribute('hidden');
+                    else otherList.setAttribute('hidden', '');
+                }
+            });
         });
     });
     document.addEventListener('click', (evt) => {
