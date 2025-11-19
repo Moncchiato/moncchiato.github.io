@@ -3,7 +3,7 @@ const layerContent = {
     'relationships': {
         title: 'Relationships',
         content: `
-            <p><strong>Overview:</strong> The Relationships layer encompasses all aspects of interpersonal connections and social bonds, which are vital for proper functioning in a social species.</p>
+            <p><strong>Overview:</strong> Relationships encompasses all aspects of interpersonal connections and social bonds, which are vital for proper functioning in a social species.</p>
             
             <h3>Important treatment considerations:</h3>
             <ul>
@@ -20,17 +20,17 @@ const layerContent = {
     'purpose': {
         title: 'Purpose',
         content: `
-            <p><strong>Overview:</strong> A unqiue aspect of the human experience that is related to the external world and behaviors while having an internal place of origin. A person's "reason for being" in the moment or in their life is an important pillar of strong mental health.</p>
+            <p><strong>Overview:</strong> A unqiue aspect of the human experience related to behaviors in the external world with an internal place of origin. A person's "reason for being" in the moment or in their life is an important pillar of strong mental health.</p>
             
             <h3>Important treatment considerations:</h3>
             <ul>
                 <li><strong>Agency Over Future:</strong> Belief in control and influence over future outcomes reduces Sypathetic Nervous System (SNS) system activity and leads to more engagement in life activity.</li>
-                <li><strong>Looking Forward to Experiences:</strong> The anticipation of future positively valenced experiences is both necessary for dopamine system maintenance and for the belief life is worth living.</li>
+                <li><strong>Looking Forward to Experiences:</strong> The anticipation of positively valenced future experiences is both necessary for dopamine system maintenance and for the belief that life is worth living.</li>
                 <li><strong>Purpose to Others:</strong> Having a concrete and valued role in a social setting providers a person with increased self worth and thus decreased SNS activity.</li>
             </ul>
             
             <h3>Treatment Applications:</h3>
-            <p>Ensuring each client has a "reason for being" helps clients develop a sense of purpose, agency, and meaning in their lives, which are crucial for mental health and wellbeing due to how some of our internal systems are built.</p>
+            <p>Ensuring each client has a "reason for being" helps clients develop a sense of purpose, agency, and meaning in their lives, which are crucial for mental health and wellbeing due to unique aspects of the human experience.</p>
             
             <p><em></em></p>
         `
@@ -38,20 +38,20 @@ const layerContent = {
     'allostatic-load': {
         title: 'Allostatic Load',
         content: `
-            <p><strong>Overview:</strong> Allostasis is the process by which the body achieves stability through physiological or behavioral changes in response to environmental demands. The "wear and tear" that results from the dysregulation or chronic activation of these systems is called allostatic load. Understanding the innate, not just learned, predispositions of the human nervous system is vital for understanding why certain life experiences lead to emotion dysregulation and pain. Maintaining a low chronic allostatic load is another pillar of a quality life experience.</p>
+            <p><strong>Overview:</strong> Allostasis is the process by which the body achieves stability through physiological or behavioral changes in response to environmental demands. The "wear and tear" that results from the dysregulation or chronic activation of these systems is called allostatic load. Understanding the innate, not just learned, predispositions of the human nervous system is vital for understanding why certain life experiences lead to emotion dysregulation and pain. Avoiding a chronically high allostatic load is another pillar of a quality life experience.</p>
             
             <h3>Important treatment considerations:</h3>
             <ul>
                 <li><strong>Sympathetic Nervous System (SNS):</strong> The Sympathetic branch of the Autonomic Nervous System is our one size fits all blanket response to demand. Understanding our natural attenuations to SNS activation and what chronic SNS activation does to our nervous system and lived experience is vital in understanding pathways to emotion dysregulation.</li>
                 <li><strong>Control, Demand, and Predictability:</strong> Our SNS is activated in response to less control and predictability and more demand.</li>
                 <li><strong>Performance:</strong> Our SNS system activates in order to help us reach levels of performance in the outside world that our brain is in pursuit of.</li>
-                <li><strong>Social Heirarchy</strong> Our SNS's natural sensitivity to social heirarchy is one of the most influential aspects of a person's lived experience in a social setting. Many clients are plagued by issues of self-worth. The natural predisposition to have higher SNS activation when perceived lesser, and lower SNS activation when perceived greater in social rank is an underdiscussed core aspect of the human experience.</li>
-                <li><strong>Dopamine System:</strong> Neurotransmitter system involved in reward and motivation is vital for life. Mice altered to have no dopamine production also do not engage in the pursuit of life preserving behaviors. Humans utilize their dopamine system for much more than just living, and understanding its function is important to understanding the consequences of under and over activation through dopamine pathways.</li>
+                <li><strong>Social Heirarchy</strong> Our SNS's natural sensitivity to social heirarchy is one of the most influential aspects of a person's lived experience in a social setting. Many clients are plagued by issues of self-worth. The natural predisposition to have higher SNS activation when perceived lesser, and lower SNS activation when perceived greater in social rank, is an underdiscussed core aspect of the human experience.</li>
+                <li><strong>Dopamine System:</strong> This neurotransmitter system involved in reward and motivation is vital for life. Mice altered to have no dopamine production also do not engage in the pursuit of life preserving behaviors. Humans utilize their dopamine system for much more than just living, and understanding its function is important to understanding the consequences of under and over activation of dopamine pathways.</li>
 
             </ul>
             
             <h3>Treatment Applications:</h3>
-            <p>Understanding the natural physiological systems that keep us alive and the physiological impacts of chronic stress and dopamine system variations can help providers select treatments that alleviate heavy allostatic load through various interventions targeting stress response systems.</p>
+            <p>Understanding our natural physiological systems that keep us alive and the impacts of chronic stress and dopamine system variations on lived experience can help providers select treatments that alleviate heavy allostatic load through various interventions.</p>
             
             <p><em></em></p>
         `
@@ -59,12 +59,12 @@ const layerContent = {
     'cognitions': {
         title: 'Cognitions/Beliefs/Schemas',
         content: `
-            <p><strong>Overview:</strong> Cogntions/Beliefs/Schemes/etc. encompasses thought patterns, beliefs, cognitive frameworks, and learning processes that majority of therapeutic modalities target. Traditionally, this is where cognitive based therapies do most of the intervention. Cognitions and beliefs are an important pillar of positive emotional experience.</p>
+            <p><strong>Overview:</strong> Cogntions/Beliefs/Schemes/etc. encompasses thought patterns, beliefs, cognitive frameworks, and learning processes that majority of therapeutic modalities target. Traditionally, this is where cognitive based therapies do most of the intervention. Cognitions and beliefs are an important pillar of positive emotional experience that effect Allostasis.</p>
             
             <h3>Important treatment considerations:</h3>
             <ul>
                 <li><strong>Acceptance:</strong> Acknowledging and embracing reality is an important part of being able to make sound decisions and align yourself to healthy behaviors and desires.</li>
-                <li><strong>Commitment/Locus of Control:</strong> Belief in personal control and goal commitment, combined with willingness and flexibility is necessary for behaviors that are required for living.</li>
+                <li><strong>Commitment/Locus of Control:</strong> Belief in personal control and goal commitment, combined with willingness and flexibility is necessary for adaptive and beneficial behaviors.</li>
                 <li><strong>Beliefs/Education/Experience/Language:</strong> Cognitive frameworks and knowledge structures are learned, and influence our nervous system as if they are objectively real.</li>
                 <li><strong>Cognitive Distortions:</strong> Systematic errors in thinking patterns lead to maladaptive spending of allostatic resources.</li>
                 <li><strong>Attention Regulation:</strong> The capacity to intentionally bring attention to valued aspects of living is an important part in living in a universe that does not try to keep us alive. The practice of Mindfulness enhances dlPFC activity in the brain to help regulate emotions.</li>
@@ -86,16 +86,16 @@ const layerContent = {
             <ul>
                 <li><strong>Gut Microbiome Probiotics/Prebiotics:</strong> The gut microbiome has been implied in almost every aspect of health, mental health not excluded. Our healthy gut bacteria produce important building blocks for our nervous system.</li>
                 <li><strong>Content of Food:</strong> Humans require specific nutrients for their bodies and brains to function, and deficits in said nutrients translate to poorer lived experience.</li>
-                <li><strong>Refined Sugars/Fructose Consumption:</strong> Impact of processed sugars on health, and brain health specifically cannot be understated.</li>
+                <li><strong>Refined Sugars/Fructose Consumption:</strong> Impact of excess refined sugars on health, and brain health specifically, cannot be understated.</li>
                 <li><strong>Substance Use:</strong> Substance use has effects on our cells and mitochondria that translated to poorer lived experience.</li>
-                <li><strong>Inflammation:</strong> While inflammation is necessary for some aspects of function, chronic inflammation comes at a cost to our cells and mitochondria.</li>
-                <li><strong>Physical Activity:</strong> Our bodies were meant to move, and if you don't use it, you lose it. Exercise is implied in many aspects of nervous system support and health.</li>
-                <li><strong>Sleep:</strong> Sleep is what enables the nervous system to function as it does. If sleep is disrupted, all nervous system activity, including affect and allostasis.</li>
+                <li><strong>Inflammation:</strong> While inflammation is necessary for healing, chronic inflammation comes at a cost to our cells and mitochondria.</li>
+                <li><strong>Physical Activity:</strong> Our bodies were built to move, and if you don't use it, you lose it. Exercise is implied in many aspects of nervous system support and health.</li>
+                <li><strong>Sleep:</strong> Sleep is what enables the nervous system to function as it does. If sleep is disrupted, all nervous system activity is too, including affect and allostasis.</li>
                 <li><strong>Circadian Rhythm:</strong> Disruptions in the natural patterns of cortisol spikes and trophs leads to negative impacts of cells and mitochondria.</li>
             </ul>
             
             <h3>Treatment Applications:</h3>
-            <p>Metabolic health is a foundational layer that addresses the physical health factors that create the biological substrate for mental health. With the modern world leading many to have impaired metabolic health, clinicials will need to be aware of how metabolic health interacts with lived experience and mental health to be able to properly treat mental health abnormalities. Interventions here can significantly impact overall treatment outcomes.</p>
+            <p>Metabolic health is a foundational layer that addresses the physical health factors that create the biological substrate for mental health. With the modern world leading many to have impaired metabolic health, clinicians will need to be aware of how metabolic health interacts with lived experience and mental health to be able to properly treat mental health abnormalities. Interventions here can significantly impact overall treatment outcomes.</p>
             
             <p><em></em></p>
         `
